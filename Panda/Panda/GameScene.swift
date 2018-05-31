@@ -11,9 +11,8 @@ import GameplayKit
 
 class GameScene: SKScene {
     
-    private var label : SKLabelNode?
-    private var spinnyNode : SKShapeNode?
     lazy var panda = Panda()
+    lazy var platformFactory = PlatformFactory()
     
     override func didMove(to view: SKView) {
         
@@ -24,17 +23,11 @@ class GameScene: SKScene {
         panda.position = CGPoint(x: -200, y: 0)
         //将熊猫显示在场景中
         self.addChild(panda)
+        self.addChild(platformFactory)
         
+        let platform = platformFactory.createPlatform(isRandom: false, midNum: 1, x: -250, y: -50)
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        //当熊猫状态为跑的时候播放跳的动作
-        if panda.status == .run {
-            panda.jump()
-        } else if panda.status == .jump {
-            //当状态为跳的时候执行打滚动画
-            panda.roll()
-        }
-    }
+    
 
 }

@@ -27,6 +27,8 @@
 		2AD7D02220BF889D008495BA /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD7D01920BF889C008495BA /* lose.mp3 */; };
 		2AD7D02320BF889D008495BA /* hit_platform.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD7D01A20BF889C008495BA /* hit_platform.mp3 */; };
 		2AD7D02720BF88D9008495BA /* panda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7D02620BF88D9008495BA /* panda.swift */; };
+		2AD7D02920C061D2008495BA /* Paltform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7D02820C061D2008495BA /* Paltform.swift */; };
+		2AD7D02B20C0654D008495BA /* PlatformFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7D02A20C0654D008495BA /* PlatformFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		2AD7D01920BF889C008495BA /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
 		2AD7D01A20BF889C008495BA /* hit_platform.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit_platform.mp3; sourceTree = "<group>"; };
 		2AD7D02620BF88D9008495BA /* panda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = panda.swift; path = "../../../../.Trash/test123/熊猫跑酷/panda.swift"; sourceTree = "<group>"; };
+		2AD7D02820C061D2008495BA /* Paltform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paltform.swift; sourceTree = "<group>"; };
+		2AD7D02A20C0654D008495BA /* PlatformFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 				2AD7CFDE20BF8855008495BA /* GameScene.sks */,
 				2AD7CFE020BF8855008495BA /* Actions.sks */,
 				2AD7D02620BF88D9008495BA /* panda.swift */,
+				2AD7D02820C061D2008495BA /* Paltform.swift */,
+				2AD7D02A20C0654D008495BA /* PlatformFactory.swift */,
 				2AD7CFE220BF8855008495BA /* GameScene.swift */,
 				2AD7CFE420BF8855008495BA /* GameViewController.swift */,
 				2AD7CFE620BF8855008495BA /* Main.storyboard */,
@@ -325,8 +331,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AD7D02720BF88D9008495BA /* panda.swift in Sources */,
+				2AD7D02B20C0654D008495BA /* PlatformFactory.swift in Sources */,
 				2AD7CFE320BF8855008495BA /* GameScene.swift in Sources */,
 				2AD7CFE520BF8855008495BA /* GameViewController.swift in Sources */,
+				2AD7D02920C061D2008495BA /* Paltform.swift in Sources */,
 				2AD7CFDD20BF8855008495BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
